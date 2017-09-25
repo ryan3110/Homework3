@@ -1,4 +1,5 @@
 <head>
+	<script>
 function getInput() {
 	var animalsInput = document.getElementById("animals-input");
   var animalsList = document.getElementById("animals-list");
@@ -13,6 +14,7 @@ function getInput() {
   a++;
   animalsCount.innerHTML = a;
 }
+	</script>
 </head>
 
 <body>
